@@ -9,6 +9,7 @@ defmodule Counter.Application do
     # List all child processes to be supervised
     children = [
       Counter.One,
+      Counter.Two,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
