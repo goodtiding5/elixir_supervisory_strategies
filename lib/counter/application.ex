@@ -10,6 +10,7 @@ defmodule Counter.Application do
     children = [
       Counter.One,
       Counter.Two,
+      Counter.Three,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
