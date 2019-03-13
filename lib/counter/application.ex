@@ -15,7 +15,7 @@ defmodule Counter.Application do
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strategy: :one_for_one, name: Counter.Supervisor]
+    opts = [strategy: :rest_for_one, name: Counter.Supervisor]
     Supervisor.start_link(children, opts)
   end
 end
